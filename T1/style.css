@@ -1,0 +1,72 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	padding: 0;
+	background-image: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.navbar-brand img {
+	height: 45px;
+	width: 45px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color: antiquewhite !important;
+	font-weight: 700;
+}
+
+.title {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.welcome-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding-top: 10px;
+}
+
+#home,
+#gallery,
+#about,
+#relatives,
+#leaving {
+	background-image: linear-gradient(to right, #13547a, #80d0c7);
+	color: antiquewhite;
+	padding-bottom: 20px;
+}
+
+.row {
+	padding-top: 20px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.about-cats,
+.about-relationship {
+	font-size: 30px;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+
+.footer {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-image: linear-gradient(to right, #43cea2, #185a9d);
+	text-align: center;
+	font-weight: 600;
+	font-size: large;
+	color: antiquewhite;
+}
