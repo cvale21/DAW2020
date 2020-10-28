@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project_record SYSTEM "project_record.dtd">
+
+<project_record>
+    
+    <title>Project Record (Example)</title>
+    
+    <metadata>
+        <key_name>Trabalho 2</key_name>
+        <project_title>Especificar um DTD para memórias descritivas</project_title>
+        <begin_date>21/10/2020</begin_date>
+        <end_date>28/10/2020</end_date>
+        <supervisors>
+            <supervisor href="http://www.di.uminho.pt/~jcr">Prof. José Carlos Ramalho</supervisor>
+        </supervisors>
+    </metadata>
+    
+    <workteam>
+        <member>
+            <num_aluno id="PG42816"></num_aluno>
+            <nome>Cândido Vale</nome>
+            <email>pg42816@alunos.uminho.pt</email>
+            <ref url="https://github.com/cvale21"></ref>
+        </member>
+    </workteam>
+    
+    <abstract>
+        <parag> 
+            Este trabalho é referente ao <bold>TPC2</bold>, onde o <underlined>objetivo é especificar um <italic>DTD</italic> 
+            para memórias descritivas, criando um ficheiro <italic>XML</italic>  que faça uso do <italic>DTD</italic>  especificado.</underlined>
+        </parag>
+        
+        <parag>Link para o respositório: 
+            <bold><link url="https://github.com/cvale21/DAW2020"></link></bold>
+        </parag>
+        
+    </abstract>
+    
+    <deliverables>
+        <deliverable url="project_record.dtd"></deliverable>
+    </deliverables>
+    
+    <date>28/10/202</date>
+    
+</project_record>
