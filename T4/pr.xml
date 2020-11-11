@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project_record SYSTEM "pr.dtd">
+
+<pr>
+
+<meta>
+    <key>TPC4</key>
+    <title>Criação e Utilização de um Server Node.js para servir o website dos Arqueossítios</title>
+    <bdate>04/11/2020</bdate>
+    <edate>11/11/2020</edate>
+    <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+</meta>
+    
+<team>
+    <member id="PG42816">
+        <name>Cândido Filipe Lima do Vale</name>
+        <email>pg42816@alunos.uminho.pt</email>
+    </member>
+</team>
+    
+<abstract>
+    <p>Este trabalho tem como principal onjectivo criar um servidor em Node.js 
+        para servir o site previamente gerado com XSLT para os Arqueossítios do NW Português.</p>
+    <p>Foram também efetuadas alterações no ficheiro XSL para que as páginas relativas a cada arquessítio fossem gerada através de um ID sequencial..</p>
+</abstract>
+    
+ <deliverables>
+     <link url="arq.xsl">Ficheiro XSL que irá gerar o Website para os Arqueossítios</link>
+     <link url="arq.dtd">Ficheiro DTD para o dataset dos Arqueossítios</link>
+     <link url="pr.xml">XML do Project Record</link>
+     <link url="server.js">Servidor Node.js</link>
+ </deliverables>
+    
+</pr>
