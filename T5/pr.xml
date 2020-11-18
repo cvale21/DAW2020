@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project_record SYSTEM "pr.dtd">
+
+<pr>
+
+<meta>
+    <key>TPC5</key>
+    <title>Criação de um Servidor em Node.js para interção com um json-server</title>
+    <bdate>11/11/2020</bdate>
+    <edate>18/11/2020</edate>
+    <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+</meta>
+    
+<team>
+    <member id="PG42816">
+        <name>Cândido Filipe Lima do Vale</name>
+        <email>pg42816@alunos.uminho.pt</email>
+    </member>
+</team>
+    
+<abstract>
+    <p>Neste trabalho desenvolveu-se um servidor em Node.js que irá interagir com um <i>json-server</i>a 
+        servir um Dataset de uma escola de música e dinâmicamente gerar páginas para cada um dos elementos.</p>
+</abstract>
+    
+ <deliverables>
+     <link url="pr.xml">XML do Project Record</link>
+     <link url="TPC5.js">Servidor Node.js</link>
+     <link url="db.json">Dataset</link>
+ </deliverables>
+    
+</pr>
