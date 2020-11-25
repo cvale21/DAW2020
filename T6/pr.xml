@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project_record SYSTEM "pr.dtd">
+
+<pr>
+
+<meta>
+    <key>TPC6</key>
+    <title>Criação de um Servidor em Node.js de modo a servir uma SPA para Gestão de Tarefas</title>
+    <bdate>18/11/2020</bdate>
+    <edate>25/11/2020</edate>
+    <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+</meta>
+    
+<team>
+    <member id="PG42816">
+        <name>Cândido Filipe Lima do Vale</name>
+        <email>pg42816@alunos.uminho.pt</email>
+    </member>
+</team>
+    
+<abstract>
+    <p>Neste trabalho desenvolveu-se um servidor em Node.js que irá servir uma SPA para Gestão de Tarefas. Este servidor em Node irá interagir com um <i>json-server</i> de modo a persistir informação das tarefas introduzida pelos utilizadores. </p>
+    <p>Outros objetivos deste trabalho são fazer uso de formulários HTML, de modo a obter input dos utilizadores e utilizar os diferentes métodos HTTP. </p>
+</abstract>
+    
+ <deliverables>
+     <link url="pr.xml">XML do Project Record</link>
+     <link url="server.js">Servidor Node.js</link>
+     <link url="db.json">Dataset das Tarefas</link>
+ </deliverables>
+    
+</pr>
