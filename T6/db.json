@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "title": "Tarefa2",
+      "priority": "Normal",
+      "description": "DAW",
+      "owner": "Cândido",
+      "dateCreated": "2020-11-22",
+      "dateDued": "2020-11-23",
+      "status": "Concluída"
+    },
+    {
+      "id": 3,
+      "title": "Task1",
+      "priority": "Alta",
+      "owner": "CV",
+      "description": "teste",
+      "dateCreated": "",
+      "dateDued": "2020-11-01",
+      "status": "Pendente"
+    },
+    {
+      "id": 4,
+      "title": "Nova Tarefa2",
+      "priority": "Reduzida",
+      "owner": "CV",
+      "description": "teste2",
+      "dateCreated": "2020-11-02",
+      "dateDued": "2020-11-12",
+      "status": "Concluída"
+    },
+    {
+      "id": 5,
+      "title": "Nova Tarefa3",
+      "priority": "Normal",
+      "owner": "CV",
+      "description": "",
+      "dateCreated": "2020-11-27",
+      "dateDued": "",
+      "status": ""
+    },
+    {
+      "id": 6,
+      "title": "New",
+      "priority": "Alta",
+      "owner": "CV",
+      "description": "nova tarefa",
+      "dateCreated": "",
+      "dateDued": "2020-11-28",
+      "status": "Pendente"
+    }
+  ]
+}
