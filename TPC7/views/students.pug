@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3.w3-left Students List (DAW2020)
+            h6.w3-right
+                button.w3-btn.w3-light-green.w3-round-large.w3-margin-right
+                    a(href="/students/register/") Adicionar
+
+        if list.length > 0
+            .w3-container 
+                table.w3-table-all
+                    tr 
+                        th Number
+                        th Name
+                        th Git
+                    each s in list
+                        tr
+                            td= s.numero
+                            td= s.nome
+                            td= s.git
+                            td
+                                button.w3-btn.w3-light-blue.w3-round-large.w3-margin-right
+                                    a(href="/students/" + s.numero) Info
+                                button.w3-btn.w3-teal.w3-round-large.w3-margin-right
+                                    a(href="/students/edit/" + s.numero) Editar
+                                button.w3-btn.w3-red.w3-round-large.w3-margin-right
+                                    a(href="/students/delete/" + s.numero) Delete
+        else
+            .w3-container
+                p There are no students...
+        footer.w3-container.w3-teal
+            address.w3-center Gerado por dawApp :: 2020-Nov - Cândido Vale PG42816
