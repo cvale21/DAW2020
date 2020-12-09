@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project_record SYSTEM "pr.dtd">
+
+<pr>
+
+<meta>
+    <key>TPC7</key>
+    <title>Criação de um Servidor em Node Express para Upload de múltiplos Ficheiros</title>
+    <bdate>02/12/2020</bdate>
+    <edate>09/12/2020</edate>
+    <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+</meta>
+    
+<team>
+    <member id="PG42816">
+        <name>Cândido Filipe Lima do Vale</name>
+        <email>pg42816@alunos.uminho.pt</email>
+    </member>
+</team>
+    
+<abstract>
+    <p>Neste trabalho desenvolveu-se um servidor em Express que irá servir uma form para Upload de múltiplos ficheiros. Os ficheiros serão armazenados no FileSystem do host do Server e ps metadados serão persistidos num ficheiro Json.</p>
+    <p>Outros objetivo deste trabalho é também perceber o Pipeline de Execução em aplicações Node.</p>
+</abstract>
+    
+ <deliverables>
+    <link url="pr.xml">XML do Project Record</link>
+    <link url="server.js">Pasta com as páginas geradas pelo Express</link>
+    <link url="dbFiles.json">Ficheiro com as metadados dos ficheiros de que se fez upload.</link>
+
+ </deliverables>
+    
+</pr>
