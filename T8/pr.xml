@@ -26,7 +26,8 @@
     
  <deliverables>
     <link url="pr.xml">XML do Project Record</link>
-    <link url="server.js">Pasta com as páginas geradas pelo Express</link>
+    <link url="server.js">Server</link>
+    <link url="imagens.js">Ficheiro responsável pela manipulação do DOM de modo a permitir mostrar e fazer o download das imagens bem como, permitir a adição de multiplas imagens em simultâneo.</link>
     <link url="dbFiles.json">Ficheiro com as metadados dos ficheiros de que se fez upload.</link>
 
  </deliverables>
